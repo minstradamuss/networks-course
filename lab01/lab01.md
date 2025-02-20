@@ -37,6 +37,7 @@
    - 128
 
 ![image](https://github.com/user-attachments/assets/6351f087-1b18-4b4a-9f85-dee600af2194)
+
 ![image](https://github.com/user-attachments/assets/f00e5e86-75e5-46ca-94fc-086cee9700be)
 
 
@@ -58,19 +59,26 @@
 
 #### Вопросы
 1. Проверьте содержимое первого HTTP-запроса GET. Видите ли вы строку «IF-MODIFIED-SINCE» в HTTP GET?
-   - <!-- todo -->
+   - нет
 2. Проверьте содержимое ответа сервера. Вернул ли сервер содержимое файла явно? Как вы
    это можете увидеть?
-   - <!-- todo -->
-   - <!-- todo -->
+   - да
+   - указана длина File Data: 371 bytes и данные о файле в целом
 3. Теперь проверьте содержимое второго HTTP-запроса GET (из вашего браузера на сторону
    сервера). Видите ли вы строку «IF-MODIFIED-SINCE» в HTTP GET? Если да, то какая
    информация следует за заголовком «IF-MODIFIED-SINCE»?
-   - <!-- todo -->
+   - да, там указана таже дата, что и в Last-Modified первого ответа сервера
 4. Какой код состояния HTTP и фраза возвращаются сервером в ответ на этот второй запрос
    HTTP GET? Вернул ли сервер явно содержимое файла?
-   - <!-- todo -->
-   - <!-- todo -->
+   - 304 Not Modified
+   - нет
+
+![image](https://github.com/user-attachments/assets/ad3665e5-2383-4a5f-9830-3bdf628012a7)
+
+![image](https://github.com/user-attachments/assets/dcb9e87f-bea7-4519-9c8d-05c34ef44fd2)
+
+![image](https://github.com/user-attachments/assets/1d26dbd4-9d77-47b5-811c-c6696eba25b9)
+
 
 ## Задание 3. Получение длинных документов (2 балла)
 
