@@ -42,9 +42,6 @@ def handle_product(product_id):
 def list_products():
     return jsonify(list(products.values()))
 
-import os
-from flask import Flask, jsonify, request, send_file
-
 @app.route('/product/<int:product_id>/image', methods=['POST', 'GET'])
 def product_image(product_id):
     try:
