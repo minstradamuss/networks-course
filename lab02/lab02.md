@@ -1,4 +1,4 @@
-# Практика 2. Rest Service
+![image](https://github.com/user-attachments/assets/9662b348-e710-4639-9732-bf18eb6bf66a)# Практика 2. Rest Service
 
 ## Программирование. Rest Service. Часть I
 
@@ -62,17 +62,17 @@
 запросы и ответы со стороны сервиса для **всех** его операций.
 
 #### Демонстрация работы
-![image](https://github.com/user-attachments/assets/025c9c95-d9dd-45c5-9fec-248ae888c373)
+![image](https://github.com/user-attachments/assets/5b692886-b50d-45e5-8ef2-d442a8cc8083)
 
-![image](https://github.com/user-attachments/assets/aeb35d03-2669-4e6d-8910-a9214369e576)
+![image](https://github.com/user-attachments/assets/699d7623-95dc-411c-afdc-6217df53ea95)
 
-![image](https://github.com/user-attachments/assets/f0c0b8f7-0277-4730-a947-38ba88a0ae81)
+![image](https://github.com/user-attachments/assets/71810721-1614-42f2-b5b2-7b93c5106820)
 
-![image](https://github.com/user-attachments/assets/d9862e53-3e8b-45dd-8803-12fe2a565c80)
+![image](https://github.com/user-attachments/assets/b9aa9aa6-2902-4262-a81a-0c41d5269ac3)
 
-![image](https://github.com/user-attachments/assets/ac7d8fb4-eb62-4594-ac16-ffc7e02ac242)
+![image](https://github.com/user-attachments/assets/dd5f3e4c-442c-4c84-81bc-bf6a43b2cd34)
 
-![image](https://github.com/user-attachments/assets/548b4ca8-ecea-48ed-b9d7-6943bb3bb475)
+![image](https://github.com/user-attachments/assets/f402b93b-1f54-4b3d-b03c-fccef3ee7fe1)
 
 ### Задание В (4 балла)
 Пусть ваш продукт также имеет иконку (небольшую картинку). Формат иконки (картинки) может
@@ -94,9 +94,9 @@
 ```
 
 #### Демонстрация работы
-![image](https://github.com/user-attachments/assets/571efe9e-2d37-4ee6-a78a-b9039d33e2d1)
+![image](https://github.com/user-attachments/assets/c6d834a0-2db4-4eb8-8a2e-98a02fa1c6b4)
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/109ad067-4a35-49ee-b422-34ea064b1358)
 
 _(*) В последующих домашних заданиях вам будет предложено расширить функционал данного сервиса._
 
