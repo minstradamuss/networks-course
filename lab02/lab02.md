@@ -66,11 +66,13 @@
 
 ![image](https://github.com/user-attachments/assets/aeb35d03-2669-4e6d-8910-a9214369e576)
 
-![image](https://github.com/user-attachments/assets/a6605289-dbd4-471a-9b47-f238fba6fe97)
+![image](https://github.com/user-attachments/assets/f0c0b8f7-0277-4730-a947-38ba88a0ae81)
 
-![image](https://github.com/user-attachments/assets/cb0a05ce-3e8b-41bc-9aef-2ce2c549a809)
+![image](https://github.com/user-attachments/assets/d9862e53-3e8b-45dd-8803-12fe2a565c80)
 
-![image](https://github.com/user-attachments/assets/c9e0f0c6-7a32-4ad7-86b1-9006dd150134)
+![image](https://github.com/user-attachments/assets/ac7d8fb4-eb62-4594-ac16-ffc7e02ac242)
+
+![image](https://github.com/user-attachments/assets/548b4ca8-ecea-48ed-b9d7-6943bb3bb475)
 
 ### Задание В (4 балла)
 Пусть ваш продукт также имеет иконку (небольшую картинку). Формат иконки (картинки) может
@@ -92,7 +94,9 @@
 ```
 
 #### Демонстрация работы
----
+![image](https://github.com/user-attachments/assets/571efe9e-2d37-4ee6-a78a-b9039d33e2d1)
+
+![Uploading image.png…]()
 
 _(*) В последующих домашних заданиях вам будет предложено расширить функционал данного сервиса._
 
