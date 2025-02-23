@@ -62,15 +62,15 @@
 запросы и ответы со стороны сервиса для **всех** его операций.
 
 #### Демонстрация работы
-![image](https://github.com/user-attachments/assets/9be8f41d-0ff3-4792-a9b5-61e6f253655f)
+![image](https://github.com/user-attachments/assets/025c9c95-d9dd-45c5-9fec-248ae888c373)
 
-![image](https://github.com/user-attachments/assets/6a606acd-2da8-4a8a-aa1b-3a420717ece5)
+![image](https://github.com/user-attachments/assets/aeb35d03-2669-4e6d-8910-a9214369e576)
 
-![image](https://github.com/user-attachments/assets/7c27480a-d797-4f2d-a1a3-b9b436ed8c2f)
+![image](https://github.com/user-attachments/assets/a6605289-dbd4-471a-9b47-f238fba6fe97)
 
-![image](https://github.com/user-attachments/assets/fd0c0509-28bb-48d5-97b8-d3d0f8302d88)
+![image](https://github.com/user-attachments/assets/cb0a05ce-3e8b-41bc-9aef-2ce2c549a809)
 
-![image](https://github.com/user-attachments/assets/ae40f200-2157-48c9-b419-a0dec8db9fd7)
+![image](https://github.com/user-attachments/assets/c9e0f0c6-7a32-4ad7-86b1-9006dd150134)
 
 ### Задание В (4 балла)
 Пусть ваш продукт также имеет иконку (небольшую картинку). Формат иконки (картинки) может
