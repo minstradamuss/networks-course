@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9662b348-e710-4639-9732-bf18eb6bf66a)# Практика 2. Rest Service
+# Практика 2. Rest Service
 
 ## Программирование. Rest Service. Часть I
 
