@@ -94,6 +94,8 @@
 ```
 
 #### Демонстрация работы
+(Обязательно должна быть пустая папка uploads, чтобы там картинка потом хранилась, в gitub пустая папка почему-то не добавляется)
+
 ![image](https://github.com/user-attachments/assets/c6d834a0-2db4-4eb8-8a2e-98a02fa1c6b4)
 
 ![image](https://github.com/user-attachments/assets/109ad067-4a35-49ee-b422-34ea064b1358)
