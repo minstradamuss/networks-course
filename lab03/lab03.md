@@ -50,7 +50,7 @@ TCP-соединение от клиента он будет устанавли�
 ![image](https://github.com/user-attachments/assets/3e444891-344a-4967-b292-8028bae26ce2)
 
 несуществующий файл:
-![image](https://github.com/user-attachments/assets/66b21f92-8967-4f28-b3cc-b598e42ab135)
+![image](https://github.com/user-attachments/assets/9dbc6df0-bf96-4b15-b9ab-c0e4ce692793)
 
 
 ### В. Клиент (2 балла)
