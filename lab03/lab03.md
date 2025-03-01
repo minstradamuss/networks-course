@@ -27,11 +27,12 @@
 
 #### Демонстрация работы
 файл server.py
+
 существующий файл:
-![image](https://github.com/user-attachments/assets/716fcb50-bae8-4c38-9184-7c4a299aa750)
+![image](https://github.com/user-attachments/assets/d06082b1-9f2d-4ccd-9662-41a3381e94e9)
 
 несуществующий файл:
-![image](https://github.com/user-attachments/assets/b5074834-d0e4-49f9-993a-58c8b2641333)
+![image](https://github.com/user-attachments/assets/e6581ae7-f023-4e8f-9fd3-0b9f891f40c5)
 
 
 ### Б. Многопоточный веб-сервер (2 балла)
@@ -42,11 +43,14 @@ TCP-соединение от клиента он будет устанавли�
 обслуживать запрос клиента в отдельном потоке. Таким образом, для каждой пары запрос-ответ
 будет создаваться отдельное TCP-соединение в отдельном потоке.
 
+#### Демонстрация работы
 файл threadserver.py
-существующий файл:
 
+существующий файл:
+![image](https://github.com/user-attachments/assets/3e444891-344a-4967-b292-8028bae26ce2)
 
 несуществующий файл:
+![image](https://github.com/user-attachments/assets/66b21f92-8967-4f28-b3cc-b598e42ab135)
 
 
 ### В. Клиент (2 балла)
@@ -64,12 +68,14 @@ TCP-соединение от клиента он будет устанавли�
 
 #### Демонстрация работы
 файл client.py
+
 существующий файл:
-![image](https://github.com/user-attachments/assets/99a508ce-e0de-49b2-9eaf-cf5084289257)
-![image](https://github.com/user-attachments/assets/4eea9a9b-12cb-4f8b-a6aa-f574ac177808)
+![image](https://github.com/user-attachments/assets/c2c58cd4-97da-4ddc-a13f-d6c87d55c3ad)
+![image](https://github.com/user-attachments/assets/f20dd643-1e24-4d15-8cb7-acb994ce5bcc)
 
 несуществующий файл:
-![image](https://github.com/user-attachments/assets/2894794a-e364-44c0-b36c-bb5453f8edb9)
+![image](https://github.com/user-attachments/assets/645a8e68-a5ec-4875-8fc8-9af4e015d32a)
+
 
 ### Г. Ограничение потоков сервера (3 балла)
 Пусть ресурсы вашего сервера ограничены и вы хотите контролировать максимальное количество
@@ -85,13 +91,19 @@ TCP-соединение от клиента он будет устанавли�
 <server.exe> server_port concurrency_level
 ```
 
+#### Демонстрация работы
 файл multithreadedserver.py
+
 существующий файл:
-![image](https://github.com/user-attachments/assets/80449943-f40a-4458-a6f4-11a5e361380a)
-![image](https://github.com/user-attachments/assets/543b4748-a1e9-46d4-bcb7-cbaa05e38e32)
+![image](https://github.com/user-attachments/assets/29b22821-99a9-4d3a-bc65-17879f76b5f0)
+![image](https://github.com/user-attachments/assets/b93231bc-c5e8-4426-b207-eeefc4421a23)
+![image](https://github.com/user-attachments/assets/cd65b95b-ecb7-4d6d-affd-bc4ef98c2935)
+
 
 несуществующий файл:
-![image](https://github.com/user-attachments/assets/233142e3-566f-4c20-a14f-df7a84281efd)
+![image](https://github.com/user-attachments/assets/85bf2ff6-f645-49c6-9e5b-b0dcf9a8f4ff)
+![image](https://github.com/user-attachments/assets/f9f8eee4-393c-40b5-ac0e-8e32a9064d5e)
+
 
 ## Задачи
 
