@@ -31,6 +31,7 @@
 существующий файл:
 ![image](https://github.com/user-attachments/assets/d06082b1-9f2d-4ccd-9662-41a3381e94e9)
 
+
 несуществующий файл:
 ![image](https://github.com/user-attachments/assets/e6581ae7-f023-4e8f-9fd3-0b9f891f40c5)
 
@@ -48,6 +49,7 @@ TCP-соединение от клиента он будет устанавли�
 
 существующий файл:
 ![image](https://github.com/user-attachments/assets/3e444891-344a-4967-b292-8028bae26ce2)
+
 
 несуществующий файл:
 ![image](https://github.com/user-attachments/assets/9dbc6df0-bf96-4b15-b9ab-c0e4ce692793)
@@ -72,6 +74,7 @@ TCP-соединение от клиента он будет устанавли�
 существующий файл:
 ![image](https://github.com/user-attachments/assets/c2c58cd4-97da-4ddc-a13f-d6c87d55c3ad)
 ![image](https://github.com/user-attachments/assets/f20dd643-1e24-4d15-8cb7-acb994ce5bcc)
+
 
 несуществующий файл:
 ![image](https://github.com/user-attachments/assets/645a8e68-a5ec-4875-8fc8-9af4e015d32a)
