@@ -71,12 +71,19 @@ todo
 
 #### Вопросы
 1. Выполните nslookup, чтобы получить IP-адрес какого-либо веб-сервера в Азии
-   - <!-- todo -->
+   - 54.222.60.218
+![image](https://github.com/user-attachments/assets/ba4d95ed-bea5-42f7-89a9-2836751359e4)
+
 2. Выполните nslookup, чтобы определить авторитетные DNS-серверы для какого-либо университета в Европе
-   - <!-- todo -->
+   - получилось только так
+![image](https://github.com/user-attachments/assets/8ba4755f-4467-423c-9122-c69ab21f11fe)
+
 3. Используя nslookup, найдите веб-сервер, имеющий несколько IP-адресов. Сколько IP-адресов имеет веб-сервер вашего учебного заведения?
-   - <!-- todo -->
-   - <!-- todo -->
+   - 205.251.242.103, 54.239.28.85, 52.94.236.248
+![image](https://github.com/user-attachments/assets/6fcd2370-8bb7-4a99-bfc7-8bfad61d81c5)
+
+   - 1
+![image](https://github.com/user-attachments/assets/95a18121-651f-4ef4-b551-e06079032824)
 
 ### Б. DNS-трассировка www.ietf.org (3 балла)
 
@@ -175,12 +182,19 @@ todo
 
 ### Е. Сервисы whois (2 балла)
 1. Что такое база данных whois?
-   - <!-- todo -->
+   - База данных WHOIS - это база данных, содержащая информацию о доменных именах, владельцах доменов и их контактных данных.
 2. Используя различные сервисы whois в Интернете, получите имена любых двух DNS-серверов. 
    Какие сервисы вы при этом использовали?
-   - <!-- todo -->
-   - <!-- todo -->
+   - ns1.yandex.ru, ns2.yandex.ru (https://www.nic.ru/whois/?searchWord=ya.ru)
+![image](https://github.com/user-attachments/assets/ab173490-1462-48ff-8ca0-167ac43a477b)
+
+   - ns1.google.com, ns2.google.com, ns3.google.com, ns4.google.com (http://www.whois-service.ru/)
+![image](https://github.com/user-attachments/assets/109115fc-bdf4-41cc-830a-7524676ec920)
+![image](https://github.com/user-attachments/assets/d35d1a24-0c58-4da9-a0d0-423707f73b1f)
+
 3. Используйте команду nslookup на локальном хосте, чтобы послать запросы трем конкретным
    серверам DNS (по аналогии с Заданием Д): вашему локальному серверу DNS и двум DNS-серверам,
    найденным в предыдущей части.
-   - <!-- todo -->
+![image](https://github.com/user-attachments/assets/82be9e08-6640-423e-b1da-89a16f5345c3)
+
+![image](https://github.com/user-attachments/assets/dbbc5709-9b94-40cf-92c2-e67988cb95dd)
