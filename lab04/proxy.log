@@ -1,0 +1,21 @@
+
+------------------------------------------------------------
+STARTING SERVER
+------------------------------------------------------------
+Configuration: enable_cache=True, enable_blacklist=False
+Proxy server is running on port 8888
+POST request for URL: http://example.com/api
+POST data: 
+Response code 403 for http://example.com/api
+GET request for URL: http://example.com
+Response code 200 for http://example.com
+
+------------------------------------------------------------
+STARTING SERVER
+------------------------------------------------------------
+Configuration: enable_cache=False, enable_blacklist=True
+Blacklist: ['lk.yandexdataschool.ru/']
+Proxy server is running on port 8888
+GET request for URL: http://lk.yandexdataschool.ru
+Checking if lk.yandexdataschool.ru is banned... Result: True
+Requested URL lk.yandexdataschool.ru is banned
