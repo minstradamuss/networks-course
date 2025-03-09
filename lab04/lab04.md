@@ -76,7 +76,7 @@ _(*) Вы должны заменить стоящий здесь 8888 на но
 
 ![image](https://github.com/user-attachments/assets/f130068f-b166-4be1-8814-1ee6758fce54)
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/d28dfac5-5fad-47a7-9129-237364e30472)
 
 ## Wireshark. Работа с DNS
 Для каждого задания в этой секции приложите скрин с подтверждением ваших ответов.
