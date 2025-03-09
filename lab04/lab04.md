@@ -35,7 +35,7 @@ _(*) Вы должны заменить стоящий здесь 8888 на но
 
 ![image](https://github.com/user-attachments/assets/c884b9e6-11b2-427d-859a-2cf8f67ec4ca)
 
-![image](https://github.com/user-attachments/assets/465c3e9d-d0f9-4fae-a118-8b8cb0ebc9d9)
+![image](https://github.com/user-attachments/assets/361c52c8-0bcf-4de9-a8f6-01b897f49405)
 
 ![image](https://github.com/user-attachments/assets/3a72cfc8-31db-4191-8e44-4f0b0af3abce)
 
@@ -58,7 +58,11 @@ _(*) Вы должны заменить стоящий здесь 8888 на но
 Приложите скрины или логи, из которых понятно, что ответ на повторный запрос был взят из кэша.
 
 #### Демонстрация работы
-todo
+![image](https://github.com/user-attachments/assets/53c44659-735f-4732-bd29-dc9f64287e0c)
+
+![image](https://github.com/user-attachments/assets/f4586c36-37b4-49bd-ab48-7ecd1955631b)
+
+кэш хранится у меня в папке с таким путем: C:\Users\User\Source\Repos\networks-course\lab04\cache
 
 ### В. Черный список (2 балла)
 Прокси-сервер отслеживает страницы и не пускает на те, которые попадают в черный список. Вместо
