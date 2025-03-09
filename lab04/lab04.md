@@ -32,7 +32,13 @@ _(*) Вы должны заменить стоящий здесь 8888 на но
 Приложите скрины или логи работы сервера.
 
 #### Демонстрация работы
-todo
+
+![image](https://github.com/user-attachments/assets/c884b9e6-11b2-427d-859a-2cf8f67ec4ca)
+
+![image](https://github.com/user-attachments/assets/465c3e9d-d0f9-4fae-a118-8b8cb0ebc9d9)
+
+![image](https://github.com/user-attachments/assets/3a72cfc8-31db-4191-8e44-4f0b0af3abce)
+
 
 ### Б. Прокси-сервер с кешированием (4 балла)
 Когда прокси-сервер получает запрос, он проверяет, есть ли запрашиваемый объект в кэше, и,
