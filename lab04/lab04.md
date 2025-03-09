@@ -72,7 +72,11 @@ _(*) Вы должны заменить стоящий здесь 8888 на но
 Приложите скрины или логи запроса из черного списка.
 
 #### Демонстрация работы
-todo
+![image](https://github.com/user-attachments/assets/8569d046-3c37-4dd8-b204-7ec79abec794)
+
+![image](https://github.com/user-attachments/assets/f130068f-b166-4be1-8814-1ee6758fce54)
+
+![Uploading image.png…]()
 
 ## Wireshark. Работа с DNS
 Для каждого задания в этой секции приложите скрин с подтверждением ваших ответов.
