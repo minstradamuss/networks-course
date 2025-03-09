@@ -32,7 +32,13 @@ _(*) Вы должны заменить стоящий здесь 8888 на но
 Приложите скрины или логи работы сервера.
 
 #### Демонстрация работы
-todo
+
+![image](https://github.com/user-attachments/assets/c884b9e6-11b2-427d-859a-2cf8f67ec4ca)
+
+![image](https://github.com/user-attachments/assets/361c52c8-0bcf-4de9-a8f6-01b897f49405)
+
+![image](https://github.com/user-attachments/assets/3a72cfc8-31db-4191-8e44-4f0b0af3abce)
+
 
 ### Б. Прокси-сервер с кешированием (4 балла)
 Когда прокси-сервер получает запрос, он проверяет, есть ли запрашиваемый объект в кэше, и,
@@ -52,7 +58,11 @@ todo
 Приложите скрины или логи, из которых понятно, что ответ на повторный запрос был взят из кэша.
 
 #### Демонстрация работы
-todo
+![image](https://github.com/user-attachments/assets/53c44659-735f-4732-bd29-dc9f64287e0c)
+
+![image](https://github.com/user-attachments/assets/f4586c36-37b4-49bd-ab48-7ecd1955631b)
+
+кэш хранится у меня в папке с таким путем: C:\Users\User\Source\Repos\networks-course\lab04\cache
 
 ### В. Черный список (2 балла)
 Прокси-сервер отслеживает страницы и не пускает на те, которые попадают в черный список. Вместо
@@ -62,7 +72,11 @@ todo
 Приложите скрины или логи запроса из черного списка.
 
 #### Демонстрация работы
-todo
+![image](https://github.com/user-attachments/assets/8569d046-3c37-4dd8-b204-7ec79abec794)
+
+![image](https://github.com/user-attachments/assets/f130068f-b166-4be1-8814-1ee6758fce54)
+
+![image](https://github.com/user-attachments/assets/d28dfac5-5fad-47a7-9129-237364e30472)
 
 ## Wireshark. Работа с DNS
 Для каждого задания в этой секции приложите скрин с подтверждением ваших ответов.
