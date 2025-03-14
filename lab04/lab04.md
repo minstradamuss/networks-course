@@ -35,7 +35,7 @@ _(*) Вы должны заменить стоящий здесь 8888 на но
 
 ![image](https://github.com/user-attachments/assets/c884b9e6-11b2-427d-859a-2cf8f67ec4ca)
 
-![image](https://github.com/user-attachments/assets/361c52c8-0bcf-4de9-a8f6-01b897f49405)
+![image](https://github.com/user-attachments/assets/586b662b-41b0-43b3-adfa-18ade863b056)
 
 ![image](https://github.com/user-attachments/assets/3a72cfc8-31db-4191-8e44-4f0b0af3abce)
 
@@ -72,7 +72,7 @@ _(*) Вы должны заменить стоящий здесь 8888 на но
 Приложите скрины или логи запроса из черного списка.
 
 #### Демонстрация работы
-![image](https://github.com/user-attachments/assets/8569d046-3c37-4dd8-b204-7ec79abec794)
+![image](https://github.com/user-attachments/assets/072eb1df-7e1b-46ad-b970-09259630bf40)
 
 ![image](https://github.com/user-attachments/assets/f130068f-b166-4be1-8814-1ee6758fce54)
 
