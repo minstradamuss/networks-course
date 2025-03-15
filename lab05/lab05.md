@@ -14,7 +14,15 @@
 Приложите скриншоты полученных сообщений (для обоих форматов).
 
 #### Демонстрация работы
-todo
+
+txt
+
+![image](https://github.com/user-attachments/assets/bcb5aa55-8cce-4db7-8e06-6e318e47ad5b)
+
+html
+
+![image](https://github.com/user-attachments/assets/54334b6b-f1e9-4ad8-9a98-b80ebdfb79d0)
+
 
 ### 2. SMTP-клиент (3 балла)
 Разработайте простой почтовый клиент, который отправляет текстовые сообщения
@@ -27,7 +35,13 @@ todo
 Сделайте скриншоты полученных сообщений.
 
 #### Демонстрация работы
-todo
+txt
+
+![image](https://github.com/user-attachments/assets/f375f11e-783f-451c-ba1e-60969ca17d17)
+
+html
+
+![image](https://github.com/user-attachments/assets/fb6f2072-e919-4c00-8be6-28e391c6eac5)
 
 ### 3. SMTP-клиент: бинарные данные (2 балла)
 Модифицируйте ваш SMTP-клиент из предыдущего задания так, чтобы теперь он мог
