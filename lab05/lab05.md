@@ -50,7 +50,13 @@ html
 Сделайте скриншот, подтверждающий получение почтового сообщения с картинкой.
 
 #### Демонстрация работы
-todo
+txt
+
+![image](https://github.com/user-attachments/assets/10b10ab6-d96e-41af-b727-769800d7566f)
+
+html
+
+![image](https://github.com/user-attachments/assets/05724477-9cf6-450e-8856-43aed9b232b8)
 
 ---
 
