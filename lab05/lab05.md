@@ -81,6 +81,8 @@ Paint (на стороне сервера). Или запустить консо
 сервере) отправляется обратно клиенту.
 
 #### Демонстрация работы
+файлы B_server.py и B_client.py
+
 ![image](https://github.com/user-attachments/assets/86ba453e-a410-41e2-96c5-9b0b9fbd1110)
 
 ![image](https://github.com/user-attachments/assets/bf802597-bdea-4132-8a6d-2f55a4f0c2ed)
@@ -92,7 +94,9 @@ Paint (на стороне сервера). Или запустить консо
 - клиент службы выводит на консоль сообщаемое ему время
 
 #### Демонстрация работы
-todo
+файлы C_server.py и C_client.py
+
+![image](https://github.com/user-attachments/assets/3272996e-6c22-4668-9bf3-17253e89d8da)
 
 ## Задачи
 
