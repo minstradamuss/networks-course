@@ -83,9 +83,9 @@ Paint (на стороне сервера). Или запустить консо
 #### Демонстрация работы
 файлы B_server.py и B_client.py
 
-![image](https://github.com/user-attachments/assets/86ba453e-a410-41e2-96c5-9b0b9fbd1110)
-
 ![image](https://github.com/user-attachments/assets/bf802597-bdea-4132-8a6d-2f55a4f0c2ed)
+
+![image](https://github.com/user-attachments/assets/86ba453e-a410-41e2-96c5-9b0b9fbd1110)
 
 ### В. Широковещательная рассылка через UDP (2 балла)
 Реализуйте сервер (веб-службу) и клиента с использованием интерфейса Socket API, которая:
