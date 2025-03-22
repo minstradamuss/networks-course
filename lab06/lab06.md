@@ -101,7 +101,35 @@
 содержимое файла можно выводить в главном окне.
 
 #### Демонстрация работы
-todo
+1) подключились к серверу, вывели список всех доступных файлов и директорий
+
+![image](https://github.com/user-attachments/assets/65fc15c7-be2e-4427-918b-b5c605d4a78f)
+
+2) создание нового файла
+
+![image](https://github.com/user-attachments/assets/713561b6-921d-4ab8-a957-28bef22975d8)
+
+![image](https://github.com/user-attachments/assets/226ed182-5440-4b24-a469-362d86827c8b)
+
+![image](https://github.com/user-attachments/assets/21c6a3f7-9700-4f8e-a440-db131b64df74)
+
+3) обновление старого файла
+
+![image](https://github.com/user-attachments/assets/626769f5-dfb0-4ee0-9fee-0b7c9d1b732e)
+
+![image](https://github.com/user-attachments/assets/584dfec6-3132-4118-a9ad-c1b183126278)
+
+![image](https://github.com/user-attachments/assets/38958a76-82ea-47f8-843d-ddfdb5c05511)
+
+4) выводим содержимое файла в главном окне
+
+![image](https://github.com/user-attachments/assets/40a620ae-ae3d-4543-87e0-5c83458cd5ef)
+
+5) удаление файла
+
+![image](https://github.com/user-attachments/assets/e1e9a055-023c-4313-9996-052eb63e157b)
+
+![image](https://github.com/user-attachments/assets/49d756ab-d017-44fd-ad95-c26d4c7f79b8)
 
 ### FTP сервер (5 баллов)
 Реализуйте свой FTP сервер, который работает поверх TCP сокетов. Вы можете использовать FTP клиента, реализованного на прошлом этапе, для тестирования своего сервера.
