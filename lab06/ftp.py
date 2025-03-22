@@ -73,8 +73,6 @@ def download_file(sock, data_sock, filename, response_filename):
 
     print(">>> RETR END\n", flush=True)
 
-
-
 def main(command: str, filename, response_filename):
     print("=== FTP CLIENT STARTED ===", flush=True)
     server_address = ('ftp.dlptest.com', 21)

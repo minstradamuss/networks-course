@@ -148,8 +148,6 @@ class FTPClientGUI:
             self.log_text.insert(tk.END, f"Error deleting file: {str(e)}\n")
             messagebox.showerror("Error", str(e))
 
-
-# Запуск приложения
 if __name__ == "__main__":
     root = tk.Tk()
     app = FTPClientGUI(root)
