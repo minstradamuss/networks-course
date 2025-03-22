@@ -101,7 +101,33 @@
 содержимое файла можно выводить в главном окне.
 
 #### Демонстрация работы
-todo
+1) подключились к серверу, вывели список всех доступных файлов и директорий
+
+![image](https://github.com/user-attachments/assets/ebc61fd9-577e-4a3b-b050-94f27733c467)
+
+2) создание нового файла
+
+![image](https://github.com/user-attachments/assets/934a9e66-f2ed-4a1c-a6ac-df5bca214e0e)
+
+![image](https://github.com/user-attachments/assets/2767f16e-c81f-4bb6-9b57-29bf39266441)
+
+![image](https://github.com/user-attachments/assets/732ace1e-a71d-4ec5-90af-b1ce86fc1016)
+
+3) обновление старого файла
+
+![image](https://github.com/user-attachments/assets/9faf0e70-1163-468e-92c6-ae2170054ef8)
+
+![image](https://github.com/user-attachments/assets/9fa4848f-fcd3-487c-a3a3-51a3df926e77)
+
+4) выводим содержимое файла в главном окне
+
+![image](https://github.com/user-attachments/assets/8e35f6aa-cb2b-42a8-9ec4-f51139fe957e)
+
+5) удаление файла
+
+![image](https://github.com/user-attachments/assets/161a72e1-f633-440c-8dcb-3472d6d6c7a0)
+
+![image](https://github.com/user-attachments/assets/3744de64-8b11-4c90-b542-510a0dd491d3)
 
 ### FTP сервер (5 баллов)
 Реализуйте свой FTP сервер, который работает поверх TCP сокетов. Вы можете использовать FTP клиента, реализованного на прошлом этапе, для тестирования своего сервера.
