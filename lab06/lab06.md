@@ -143,4 +143,9 @@
 - QUIT
 
 #### Демонстрация работы
-todo
+файлы ftpServer.py и отдельно написанный клиент в clientforftpServer.py
+
+![image](https://github.com/user-attachments/assets/343df43b-e6ab-4ff7-af4f-8702d8683f68)
+
+![image](https://github.com/user-attachments/assets/ac2f5f9e-967a-4428-b38e-4ede0d08fa0e)
+
