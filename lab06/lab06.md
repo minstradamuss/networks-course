@@ -52,7 +52,10 @@
 Приложите скриншоты.
 
 #### Скрины
-todo
+
+![image](https://github.com/user-attachments/assets/df828d39-4943-4610-9bda-cdfe61295077)
+
+![image](https://github.com/user-attachments/assets/98a780c1-c243-484e-aa58-162ccc40c04b)
 
 ### FTP клиент (3 балла)
 Создайте консольное приложение FTP клиента для работы с файлами по FTP. Приложение может
