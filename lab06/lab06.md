@@ -70,7 +70,19 @@
 Бонус: Не используйте готовые библиотеки для работы с FTP (например, ftplib для Python), а реализуйте решение на сокетах **(+3 балла)**.
 
 #### Демонстрация работы
-todo
+1) получаем список всех директорий и файлов сервера и выводим на консоль
+
+![image](https://github.com/user-attachments/assets/88e7d1ed-0a02-432d-95eb-bbbf428d5d75)
+
+2) загружаем новый файл на сервер
+
+![image](https://github.com/user-attachments/assets/2b734d8a-362d-47ac-8f95-dc73b6e52003)
+
+![image](https://github.com/user-attachments/assets/27596af6-5574-42b5-9f76-5a31bc9d081a)
+
+3) загружаем файл с сервера и сохраняем локально
+
+![image](https://github.com/user-attachments/assets/9a3153f0-60d6-465e-8e5c-523f0185f305)
 
 ### GUI FTP клиент (4 балла)
 Реализуйте приложение FTP клиента с графическим интерфейсом. НЕ используйте C#.
