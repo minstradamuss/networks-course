@@ -143,7 +143,7 @@
 - QUIT
 
 #### Демонстрация работы
-файлы ftpServer.py и отдельно написанный клиент в clientforftpServer.py
+файлы ftpServer.py (в некоторых командах есть логи) и отдельно написанный клиент в clientforftpServer.py
 
 ![image](https://github.com/user-attachments/assets/343df43b-e6ab-4ff7-af4f-8702d8683f68)
 
