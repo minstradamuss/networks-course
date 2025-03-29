@@ -158,7 +158,9 @@ Time-Sequence-Graph (Stevens) (Статистика => График TCP пото
 Сделайте скриншоты, подтверждающие корректную работу вашей программы пингования со стороны клиента.
 
 #### Демонстрация работы
-todo
+файлы serverA.py + clientB.py
+![image](https://github.com/user-attachments/assets/1be62909-0fd5-4448-8ef5-1521a3b027b8)
+
 
 ### В. Вывод в формате ping (2 балла)
 Версия клиента из предыдущей части (Б) вычисляет время оборота для каждого пакета и выводит
@@ -170,7 +172,8 @@ todo
 процентах).
 
 #### Демонстрация работы
-todo
+файлы serverA.py + clientC.py
+![image](https://github.com/user-attachments/assets/cc0dc034-dd6e-48cb-bf4c-c1b1e1c4cf01)
 
 ### Г. UDP Heartbeat (4 балла)
 UDP Heartbeat (монитор доступности) подобен программе пингования. Он может быть
