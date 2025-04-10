@@ -119,8 +119,12 @@ todo
    $$\approx \dfrac{1.22 \cdot MSS}{RTT \cdot \sqrt{L}}$$
 
 #### Решение
-1) частота потери L — это отношение количества потерянных пакетов к количеству отправленных пакетов. За цикл теряется 1 пакет. Количество пакетов, отправленных за цикл, равно $\dfrac{W}{2} + (\dfrac{W}{2}+1) + \cdots + W = \sum_{i=0}^{W/2} \left(\dfrac{W}{2} + i\right) = \dfrac{3 W^2}{8} + \dfrac{3W}{4}$. Тогда $L = \dfrac{1}{\frac{3}{8} W^2 + \frac{3}{4} W}$
-2) Для большого W: $\dfrac{3 W^2}{8} >> \dfrac{3W}{4}$. Таким образом, $L \approx \dfrac{8}{3 W^2}$ или $W \approx \sqrt{\dfrac{8}{3 L}}$. Тогда средняя скорость = $\dfrac{3}{4}\sqrt{\dfrac{8}{3 L}}\dfrac{MSS}{RTT} \approx \dfrac{1.22 \cdot MSS}{RTT \cdot \sqrt{L}}$.
+1. 1) частота потери L — это $\dfrac{\text{кол-во потерянных пакетов}}{\text{кол-во отправленных пакетов}}$
+   2) за цикл теряется 1 пакет, и за цикл отправлено пакетов: $\dfrac{W}{2} + (\dfrac{W}{2}+1) + \cdots + W = \sum_{i=0}^{\dfrac{W}{2}} \left(\dfrac{W}{2} + i\right) = \dfrac{3 \cdot {W^2}}{8} + \dfrac{3 \cdot W}{4}$
+   3) тогда $L = \dfrac{1}{\frac{3}{8} W^2 + \frac{3}{4} W}$
+2. 1) для большого W: $\dfrac{3 W^2}{8} >> \dfrac{3W}{4}$
+   2) значит $L \approx \dfrac{8}{3 \cdot {W^2}}$ или $W \approx \sqrt{\dfrac{8}{3 \cdot L}}$
+   3) значит, $V_{\text{распространения}} = \dfrac{3}{4}\sqrt{\dfrac{8}{3 \cdot L}} \cdot \dfrac{MSS}{RTT} \approx \dfrac{1.22 \cdot MSS}{RTT \cdot \sqrt{L}}$.
 
 ### Задача 2. Найдите функциональную зависимость (3 балла)
 Рассмотрим модификацию алгоритма управления перегрузкой протокола TCP. Вместо
