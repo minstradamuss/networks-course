@@ -18,6 +18,10 @@
 
 Для анализа пакетов в Wireshark введите строку icmp в области фильтрации вывода.
 
+![image](https://github.com/user-attachments/assets/e2636d24-9083-4701-b3fe-7bf98410ba4f)
+
+![image](https://github.com/user-attachments/assets/13d99587-5e8e-443e-a430-5231005dc8ef)
+
 #### Вопросы
 1. Каков IP-адрес вашего хоста? Каков IP-адрес хоста назначения?
    - <!-- todo -->
