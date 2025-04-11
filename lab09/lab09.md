@@ -60,7 +60,7 @@ Traceroute отсылает первый пакет со значением TTL 
 
 Выберите хост, который **расположен на другом континенте**.
 
-![image](https://github.com/user-attachments/assets/091a686e-c2bd-43cb-84db-c1997069b2ed)
+![image](https://github.com/user-attachments/assets/43474dd6-076c-4c70-a8b0-86373942a8f9)
 
 ![image](https://github.com/user-attachments/assets/a725e5c5-725b-4ca4-a72e-e206edd71b41)
 
