@@ -1,0 +1,16 @@
+2025-04-18 11:55:48.099337 - Packet 0 sent.
+2025-04-18 11:55:48.099337 - Packet 1 sent.
+2025-04-18 11:55:48.100341 - Packet 2 sent.
+2025-04-18 11:55:48.100341 - Packet 3 sent.
+2025-04-18 11:55:48.100341 - Sender window: [0:WAIT] [1:WAIT] [2:WAIT] [3:WAIT] [4]
+2025-04-18 11:55:48.100341 - ACK received for packet 0.
+2025-04-18 11:55:48.100341 - ACK received for packet 1.
+2025-04-18 11:55:48.101729 - ACK received for packet 2.
+2025-04-18 11:55:48.101729 - ACK received for packet 3.
+2025-04-18 11:55:48.101729 - Packet 4 sent.
+2025-04-18 11:55:48.102743 - Sender window: [0:ACK] [1:ACK] [2:ACK] [3:ACK] [4:WAIT]
+2025-04-18 11:55:51.104422 - Timeout occurred. Resending from packet 4.
+2025-04-18 11:55:51.104422 - Packet 4 sent.
+2025-04-18 11:55:51.105429 - Sender window: [0:ACK] [1:ACK] [2:ACK] [3:ACK] [4:WAIT]
+2025-04-18 11:55:51.105429 - ACK received for packet 4.
+2025-04-18 11:55:51.105429 - File transfer complete.

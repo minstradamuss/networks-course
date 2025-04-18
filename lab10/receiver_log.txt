@@ -1,0 +1,8 @@
+2025-04-18 11:55:45.176885 - [Receiver] Waiting for incoming packets...
+2025-04-18 11:55:48.099337 - [Receiver] Received expected packet 0. Sending ACK 0.
+2025-04-18 11:55:48.100341 - [Receiver] Received expected packet 1. Sending ACK 1.
+2025-04-18 11:55:48.101729 - [Receiver] Received expected packet 2. Sending ACK 2.
+2025-04-18 11:55:48.101729 - [Receiver] Received expected packet 3. Sending ACK 3.
+2025-04-18 11:55:48.101729 - [Receiver] Packet 4 lost (simulated).
+2025-04-18 11:55:51.105429 - [Receiver] Received expected packet 4. Sending ACK 4.
+2025-04-18 11:55:51.107405 - [Receiver] File transfer complete.
