@@ -209,4 +209,5 @@ ICMP-заголовок начинается после 160-го бита IP-з�
 <img src="images/go-back-n.png" width=700 />
 
 #### Демонстрация работы
-todo
+*файлы reciever.py и sender.py*
+![image](https://github.com/user-attachments/assets/38a3b725-0c99-4604-9643-d15cedf51de2)
