@@ -118,6 +118,7 @@ Windows) или UDP-сегмент (в случае с Unix).
 **на разных континентах**.
 
 #### Демонстрация работы
+*файл ping_a.py*
 ![image](https://github.com/user-attachments/assets/efb8b470-a77b-4100-bd67-fd1834f5be02)
 
 ### Задание Б (1 балл)
@@ -126,6 +127,7 @@ Windows) или UDP-сегмент (в случае с Unix).
 Дополнительно вычислите коэффициент потери пакетов (в процентах).
 
 #### Демонстрация работы
+*файл ping_b.py*
 ![image](https://github.com/user-attachments/assets/e2e45477-67f9-46e5-b067-aa26d8f87cce)
 
 ### Задание В (1 балл)
@@ -137,6 +139,7 @@ Windows) или UDP-сегмент (в случае с Unix).
 Приложите скриншот вывода одной из ошибок.
 
 #### Демонстрация работы
+*файл ping_c.py*
 ![image](https://github.com/user-attachments/assets/c4dddefa-356a-4aa5-a9a1-96673dd02c98)
 
 ### Справочная информация о протоколе ICMP
