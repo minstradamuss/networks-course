@@ -84,4 +84,6 @@ todo
 приложения. Предоставьте скриншот работы приложения.
 
 #### Демонстрация работы
-todo
+*файлы paint_server.py и paint_client.py*
+![image](https://github.com/user-attachments/assets/9264914e-3f98-4aad-a5b2-433de4ba4e17)
+
