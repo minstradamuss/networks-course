@@ -22,8 +22,7 @@
 
 #### Демонстрация работы
 *файл ICMP_A.py*
-![image](https://github.com/user-attachments/assets/3930258e-a1d3-4c1c-baa4-e44c1a1f2ef2)
-
+![image](https://github.com/user-attachments/assets/02f9146c-10c5-4259-abf7-ea774c9d1e5b)
 
 ### Задание Б. Вывод имен промежуточных узлов (2 балла)
 В настоящее время приложение выводит только список IP-адресов всех маршрутизаторов на пути
@@ -33,7 +32,7 @@
 
 #### Демонстрация работы
 *файл ICMP_B.py*
-![image](https://github.com/user-attachments/assets/3f9124de-97fa-4b08-a0a7-451ce125055e)
+![image](https://github.com/user-attachments/assets/1d7ac37d-d2fc-4966-a9c5-cc75acf02b5d)
 
 ## Дистанционно-векторная маршрутизация (8 баллов)
 Реализуйте распределенный алгоритм дистанционно-векторной маршрутизации для сети,
