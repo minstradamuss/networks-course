@@ -149,12 +149,24 @@ IP-адрес и диапазон портов должны передавать
    $$\approx \dfrac{1.22 \cdot MSS}{RTT \cdot \sqrt{L}}$$
 
 #### Решение
-1. 1) частота потери L — это $\dfrac{\text{кол-во потерянных пакетов}}{\text{кол-во отправленных пакетов}}$
-   2) за цикл теряется 1 пакет, и за цикл отправлено пакетов: $\dfrac{W}{2} + (\dfrac{W}{2}+1) + \cdots + W = \sum_{i=0}^{\dfrac{W}{2}} \left(\dfrac{W}{2} + i\right) = \dfrac{3 \cdot {W^2}}{8} + \dfrac{3 \cdot W}{4}$
-   3) тогда $L = \dfrac{1}{\frac{3}{8} W^2 + \frac{3}{4} W}$
-2. 1) для большого W: $\dfrac{3 W^2}{8} >> \dfrac{3W}{4}$
-   2) значит $L \approx \dfrac{8}{3 \cdot {W^2}}$ или $W \approx \sqrt{\dfrac{8}{3 \cdot L}}$
-   3) значит, $V_{\text{распространения}} = \dfrac{3}{4}\sqrt{\dfrac{8}{3 \cdot L}} \cdot \dfrac{MSS}{RTT} \approx \dfrac{1.22 \cdot MSS}{RTT \cdot \sqrt{L}}$.
+$L = \dfrac{\text{число потерянных пакетов}}{\text{число отправленных пакетов}}$
+
+$\sum_{i=0}^{\frac{W}{2}} \left( \frac{W}{2} + i \right) = \frac{3W^2}{8} + \frac{3W}{4}$
+
+$L = \dfrac{1}{\frac{3}{8}W^2 + \frac{3}{4}W}$
+
+$\frac{3W^2}{8} \gg \frac{3W}{4}$
+
+$L \approx \dfrac{8}{3W^2}$
+
+$W \approx \sqrt{\dfrac{8}{3L}}$
+
+$V_{\text{avg}} = \dfrac{3}{4} \cdot W \cdot \dfrac{MSS}{RTT}$
+
+$V_{\text{avg}} \approx \dfrac{3}{4} \cdot \sqrt{\dfrac{8}{3L}} \cdot \dfrac{MSS}{RTT}$
+
+$V_{\text{avg}} \approx \dfrac{1.22 \cdot MSS}{RTT \cdot \sqrt{L}}$
+
 
 ### Задача 2. Найдите функциональную зависимость (3 балла)
 Рассмотрим модификацию алгоритма управления перегрузкой протокола TCP. Вместо
@@ -168,8 +180,17 @@ TCP-отправитель увеличивает размер своего ок
 увеличения размера окна перегрузки с $\frac{W}{2}$ до $W$.
 
 #### Решение
-1. 1) общее кол-во сегментов: $S = \dfrac{W}{2} + \dfrac{W}{2} \cdot (1+a) + \dfrac{W}{2} \cdot (1+a)^2 + \cdots + \dfrac{W}{2} \cdot(1+a)^n$, где $n = \log_{1+a}2$
-   2) тогда $S = \dfrac{W\cdot(2 \cdot a+1)}{2 \cdot a}$
-   3) значит, частота потерь: $L = \dfrac{1}{S} = \dfrac{2 \cdot a}{W\cdot(2 \cdot a+1)}$
-2. 1) TCP требуется время: $n \cdot RTT = \log_{1+a}2 \cdot RTT$, чтобы увеличить размер окна с $\frac{W}{2}$ до $W$
-   2) это не зависит от средней пропускной способности TCP, т.к. она равна $MSS \cdot \dfrac{S}{(n+1) \cdot RTT} = \dfrac{MSS}{L\cdot(k+1)\cdot RTT}$
+1. Общее количество сегментов:
+   $$S = \dfrac{W}{2} + \dfrac{W}{2} \cdot (1+a) + \dfrac{W}{2} \cdot (1+a)^2 + \cdots + \dfrac{W}{2} \cdot (1+a)^n, \quad n = \log_{1+a}2$$
+
+2. Тогда:
+   $$S = \dfrac{W \cdot (2a + 1)}{2a}$$
+
+3. Частота потерь:
+   $$L = \dfrac{1}{S} = \dfrac{2a}{W \cdot (2a + 1)}$$
+
+4. Время, требуемое TCP для увеличения окна:
+   $$n \cdot RTT = \log_{1+a}2 \cdot RTT$$
+
+5. Средняя пропускная способность:
+   $$V_{\text{avg}} = MSS \cdot \dfrac{S}{(n+1) \cdot RTT} = \dfrac{MSS}{L \cdot (n+1) \cdot RTT}$$
