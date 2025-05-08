@@ -81,7 +81,8 @@ UDP, а также выводит количество потерянных па
 <img src="images/tcp.png" width=700 />
 
 #### Демонстрация работы
-todo
+*файлы tcp_receiver.py и tcp_sender.py*
+![image](https://github.com/user-attachments/assets/f308696d-a63e-4a0f-8655-986e9c070f11)
 
 ### 2. Измерение по протоколу UDP (3 балла)
 Пример интерфейса:
@@ -89,7 +90,9 @@ todo
 <img src="images/udp.png" width=700 />
 
 #### Демонстрация работы
-todo
+*файлы udp_receiver.py и udp_sender.py*
+![image](https://github.com/user-attachments/assets/d7c31ecc-5b4b-40b5-bae2-31f524870eb4)
+
    
 
 ## Транслятор портов (6 баллов)
