@@ -23,7 +23,7 @@ def receive_udp_packets(ip, port, speed_entry, count_entry):
 
         end_time = time.time()
         duration = max(end_time - start_time, 0.0001)
-        speed = (packet_count * 1024) / duration  # Bytes per second
+        speed = (packet_count * 1024) / duration
 
         speed_entry.config(state="normal")
         speed_entry.delete(0, tk.END)

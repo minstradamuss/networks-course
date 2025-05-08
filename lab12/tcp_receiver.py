@@ -26,9 +26,8 @@ def receive_data(ip, port, speed_entry, count_entry):
         conn.close()
 
         duration = max(end_time - start_time, 0.0001)
-        speed = (received_packets * 1024) / duration  # Bytes per second
+        speed = (received_packets * 1024) / duration
 
-        # Update GUI
         speed_entry.config(state="normal")
         speed_entry.delete(0, tk.END)
         speed_entry.insert(0, f"{speed:.2f} B/s")

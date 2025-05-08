@@ -9,7 +9,7 @@ def send_udp_packets(ip, port, count):
     count = int(count)
     start = time.time()
     for _ in range(count):
-        data = os.urandom(1024)  # 1 KB packet
+        data = os.urandom(1024)
         s.sendto(data, (ip, int(port)))
     end = time.time()
     duration = end - start
