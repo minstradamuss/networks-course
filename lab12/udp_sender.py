@@ -14,7 +14,7 @@ def send_udp_packets(ip, port, count):
     end = time.time()
     duration = end - start
     s.close()
-    messagebox.showinfo("Transfer Complete", f"Sent {count} packets in {duration:.2f} seconds")
+    #messagebox.showinfo("Transfer Complete", f"Sent {count} packets in {duration:.2f} seconds")
 
 def create_sender_gui():
     win = tk.Tk()
