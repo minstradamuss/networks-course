@@ -27,7 +27,9 @@ Final state of router 198.71.243.61 table:
 Приведите скрин или лог работы программы.
 
 #### Демонстрация работы
-todo
+*файл RIP_A.py*
+![image](https://github.com/user-attachments/assets/89238a3d-b8ef-47dd-8fa1-12041dcb317e)
+
 
 ### Задание Б (1 балл)
 Выведите на консоль промежуточные этапы работы протокола: по каждому маршрутизатору
@@ -43,7 +45,11 @@ Simulation step 3 of router 42.162.54.248
 ```
 
 #### Демонстрация работы
-todo
+*файл RIP_B.py*
+![image](https://github.com/user-attachments/assets/588c4d53-2f75-456c-b8ea-d52e2bb7e683)
+![image](https://github.com/user-attachments/assets/8bb02bde-f587-48bc-b060-4cc8c7647d39)
+![image](https://github.com/user-attachments/assets/962118ad-2108-4713-a54f-d90f46f7dc10)
+
 
 ### Задание В (2 балла)
 
@@ -52,6 +58,11 @@ todo
 
 Бонус: Не используйте общую память, а вместо этого реализуйте общение потоков через 
 сокеты **(+3 балла)**.
+
+#### Демонстрация работы
+*файл RIP_C.py (там с бонусом)*
+![image](https://github.com/user-attachments/assets/d6491e5e-0b24-4ff9-9a96-84affbe3e67a)
+
 
 ## Скорость передачи (6 баллов)
 Реализуйте программу, которая измеряет скорость передачи информации по протоколам TCP и
