@@ -93,5 +93,6 @@ todo
 <img src="images/port-translator.png" width=600 />
 
 #### Демонстрация работы
+*файлы port_translator.py + port_rules.json*
 ![image](https://github.com/user-attachments/assets/2e322697-34a3-4cb1-be0b-2103a9d5eaed)
 
