@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Yandex",
+    "internal_ip": "127.0.0.1",
+    "internal_port": 12345,
+    "external_ip": "93.158.134.11",
+    "external_port": 80
+  },
+  {
+    "name": "Google",
+    "internal_ip": "127.0.0.1",
+    "internal_port": 12346,
+    "external_ip": "142.250.190.68",
+    "external_port": 80
+  },
+  {
+    "name": "Wikipedia",
+    "internal_ip": "127.0.0.1",
+    "internal_port": 12347,
+    "external_ip": "208.80.154.224",
+    "external_port": 80
+  }
+]
