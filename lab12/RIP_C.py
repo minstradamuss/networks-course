@@ -1,116 +1,94 @@
-import threading
 import socket
+import threading
 import json
-import time
 import random
-
-MAX_METRIC = 15
-ROUTER_COUNT = 4
-BASE_PORT = 5000
+import time
+from queue import Queue
 
 print_lock = threading.Lock()
+result_queue = Queue()        
 
-class Router(threading.Thread):
-    def __init__(self, ip, port, neighbors):
+class RouterThread(threading.Thread):
+    def __init__(self, ip, neighbors, port):
         super().__init__()
         self.ip = ip
-        self.port = port
         self.neighbors = neighbors
-        self.routing_table = {ip: {"next_hop": ip, "metric": 0}}
+        self.port = port
+        self.routing_table = {ip: (ip, 0)}
         self.running = True
 
-    def run(self):
-        server_thread = threading.Thread(target=self.server)
-        server_thread.start()
-
-        time.sleep(1)
-
-        for _ in range(5):
-            self.broadcast_table()
-            time.sleep(1)
-
-        self.running = False
-        server_thread.join()
-        self.print_table()
-
-    def server(self):
-        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        s.bind(("localhost", self.port))
-        s.listen()
-        while self.running:
-            s.settimeout(1)
-            try:
-                conn, _ = s.accept()
-                data = conn.recv(4096)
-                if data:
-                    message = json.loads(data.decode())
-                    sender_ip = message["source"]
-                    sender_table = message["table"]
-                    self.update_table(sender_ip, sender_table)
-                conn.close()
-            except socket.timeout:
-                continue
-        s.close()
-
-    def broadcast_table(self):
-        table_to_send = {"source": self.ip, "table": self.routing_table}
-        encoded = json.dumps(table_to_send).encode()
+    def send_table(self):
         for neighbor_ip, neighbor_port in self.neighbors.items():
-            try:
-                sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-                sock.connect(("localhost", neighbor_port))
-                sock.send(encoded)
-                sock.close()
-            except:
-                continue
+            with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
+                message = json.dumps({
+                    "sender": self.ip,
+                    "table": self.routing_table
+                }).encode()
+                s.sendto(message, ("127.0.0.1", neighbor_port))
 
-    def update_table(self, sender_ip, sender_table):
-        for dest_ip, entry in sender_table.items():
+    def update_table(self, received_table, sender_ip):
+        changed = False
+        for dest_ip, (next_hop, metric) in received_table.items():
             if dest_ip == self.ip:
                 continue
-            new_metric = min(entry["metric"] + 1, MAX_METRIC)
-            if dest_ip not in self.routing_table or new_metric < self.routing_table[dest_ip]["metric"]:
-                self.routing_table[dest_ip] = {
-                    "next_hop": sender_ip,
-                    "metric": new_metric
-                }
+            new_metric = metric + 1
+            if dest_ip not in self.routing_table or new_metric < self.routing_table[dest_ip][1]:
+                self.routing_table[dest_ip] = (sender_ip, new_metric)
+                changed = True
+        return changed
 
-    def print_table(self):
-        with print_lock:
-            print(f"\nFinal routing table of router {self.ip}:")
-            print(f"{'[Source IP]':<18}{'[Destination IP]':<20}{'[Next Hop]':<18}{'[Metric]'}")
-            for dest, data in sorted(self.routing_table.items()):
-                print(f"{self.ip:<18}{dest:<20}{data['next_hop']:<18}{data['metric']}")
-            print()
+    def run(self):
+        sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        sock.bind(("127.0.0.1", self.port))
+        sock.settimeout(1)
 
-def generate_routers():
+        for _ in range(5):
+            self.send_table()
+            try:
+                while True:
+                    data, _ = sock.recvfrom(4096)
+                    msg = json.loads(data.decode())
+                    self.update_table(msg['table'], msg['sender'])
+            except socket.timeout:
+                pass
+            time.sleep(1)
+
+        sock.close()
+        result_queue.put((self.ip, dict(self.routing_table)))
+
+def print_table(ip, table):
+    with print_lock:
+        print(f"\nRouter {ip} final table:")
+        print(f"{'[Source IP]':<17}{'[Destination IP]':<20}{'[Next Hop]':<17}{'[Metric]'}")
+        for dest_ip in sorted(table):
+            next_hop, metric = table[dest_ip]
+            print(f"{ip:<17}{dest_ip:<20}{next_hop:<17}{metric}")
+
+def generate_network_threads():
+    base_port = 10000
     routers = {}
-    ports = {}
+    ips = [f"10.0.0.{i}" for i in range(1, 6)]
+    ports = {ip: base_port + i for i, ip in enumerate(ips)}
 
-    for i in range(ROUTER_COUNT):
-        ip = f"10.0.0.{i+1}"
-        port = BASE_PORT + i
-        routers[ip] = {"port": port, "neighbors": {}}
-        ports[ip] = port
+    connections = {ip: {} for ip in ips}
+    for ip in ips:
+        neighbors = random.sample([i for i in ips if i != ip], random.randint(1, 3))
+        for neighbor in neighbors:
+            connections[ip][neighbor] = ports[neighbor]
+            connections[neighbor][ip] = ports[ip]
 
-    for ip in routers:
-        other_ips = [x for x in routers if x != ip]
-        chosen = random.sample(other_ips, random.randint(1, len(other_ips)-1))
-        for neighbor_ip in chosen:
-            routers[ip]["neighbors"][neighbor_ip] = ports[neighbor_ip]
+    for ip in ips:
+        routers[ip] = RouterThread(ip, connections[ip], ports[ip])
 
-    return routers
-
-def main():
-    network = generate_routers()
-    threads = []
-    for ip, data in network.items():
-        router = Router(ip, data["port"], data["neighbors"])
-        threads.append(router)
-        router.start()
-
-    for thread in threads:
-        thread.join()
+    return list(routers.values())
 
 if __name__ == "__main__":
-    main()
+    threads = generate_network_threads()
+    for t in threads:
+        t.start()
+    for t in threads:
+        t.join()
+
+    while not result_queue.empty():
+        ip, table = result_queue.get()
+        print_table(ip, table)
