@@ -51,6 +51,10 @@ Redundancy Check, CRC).
 выведите на экран: полезные передаваемые данные, пакет в закодированном виде, контрольный
 код.
 
+#### Демонстрация работы
+
+![image](https://github.com/user-attachments/assets/c46f3601-e96f-419b-8843-f5bcf71ae2d2)
+
 ### Подсчет сетевого трафика (8 баллов)
 
 ### Задание А (2 балла)
@@ -58,7 +62,9 @@ Redundancy Check, CRC).
 его природы.
 
 #### Демонстрация работы
-todo
+*файл traffic_counter_gui.py*
+
+![image](https://github.com/user-attachments/assets/1b2bc37e-4b5b-457c-a35f-5f4206994cdc)
 
 ### Задание Б (2 балла)
 Разработать приложение, подсчитывающее входящий и исходящий сетевой трафик с учетом
@@ -66,7 +72,9 @@ todo
 формировать отчет с разделением трафика по портам назначения/отправки.
 
 #### Демонстрация работы
-todo
+*файл traffic_by_ports_gui.py*
+
+![image](https://github.com/user-attachments/assets/ebe33c27-0dd3-4bbe-adf2-6d085c8c3749)
 
 ### Задание В (4 балла)
 Разработать приложение, анализирующее весь сетевой трафик подсети. Приложение должно
@@ -87,7 +95,13 @@ todo
 трафика по портам. 
 
 #### Демонстрация работы
-todo
+*файл network_sniffer_gui.py*
+
+![image](https://github.com/user-attachments/assets/06f21ddd-46ae-4292-a72b-b7e49b15a454)
+
+![image](https://github.com/user-attachments/assets/f4b013ee-f4e5-4a6a-bcc1-6d75601bfda8)
+
+![image](https://github.com/user-attachments/assets/9e84fe63-1c86-4308-82fe-df451f2f5a8a)
 
 ### Определение всех компьютеров в сети (6 баллов)
 
