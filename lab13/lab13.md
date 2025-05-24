@@ -52,6 +52,7 @@ Redundancy Check, CRC).
 код.
 
 #### Демонстрация работы
+*файл CRC.py*
 
 ![image](https://github.com/user-attachments/assets/c46f3601-e96f-419b-8843-f5bcf71ae2d2)
 
