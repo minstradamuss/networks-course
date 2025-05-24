@@ -28,6 +28,7 @@ Final state of router 198.71.243.61 table:
 
 #### Демонстрация работы
 *файл RIP_A.py*
+
 ![image](https://github.com/user-attachments/assets/f1f2f059-4a0f-4a96-9cd9-5de56ccb9ac7)
 
 
@@ -46,6 +47,7 @@ Simulation step 3 of router 42.162.54.248
 
 #### Демонстрация работы
 *файл RIP_B.py*
+
 ![image](https://github.com/user-attachments/assets/e1538887-9eaf-44b3-86af-9842d7a61635)
 ![image](https://github.com/user-attachments/assets/c789da11-4692-43aa-a825-4b3f2c01859a)
 ![image](https://github.com/user-attachments/assets/2a761328-9b98-4e1d-af5a-9b3bcc47ed53)
@@ -63,6 +65,7 @@ Simulation step 3 of router 42.162.54.248
 
 #### Демонстрация работы
 *файл RIP_C.py (там с бонусом)*
+
 ![image](https://github.com/user-attachments/assets/5a468710-975d-4d63-99af-df302eb7da89)
 
 
